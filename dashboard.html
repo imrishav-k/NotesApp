@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles/dashboard_styles.css">
+</head>
+<body>
+    <nav>
+        <a href="profile.html">Profile</a>
+        <a href="create.html">Create</a>
+        <a href="notifications.html">Notifications</a>
+        <a href="login.html" onclick="logout()">Logout</a>
+    </nav>
+    <div class="flex-container">
+        <div class="space" id="private-space">
+            <a href="private-space.html">Private Space</a>
+        </div>
+        <div class="space" id="institutional-space">
+            <a href="institutional-space.html">Institutional Space</a>
+        </div>
+        <div class="space" id="created-space">
+            <a href="created-space.html">Created Space</a>
+        </div>
+    </div>
+    <script data-main="scripts/main" src="scripts/require.js"></script>
+</body>
+</html>
